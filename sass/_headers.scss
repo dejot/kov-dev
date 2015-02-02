@@ -1,0 +1,51 @@
+#featured article header {
+	padding: 20px;
+	height: auto;
+	background: rgba(5, 7, 130, 0.9);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+
+.controls-container .flex-control-nav li a {
+	color: rgba(5, 7, 130, 1);
+}
+
+
+.controls-container .flex-control-nav li a.flex-active,
+.nav li.current_page_parent > a, .nav li.current-menu-ancestor > a {
+  	color: #50519A;
+  	background-color: #50519A;
+  	background-image: -webkit-linear-gradient(top, #50519A, #50519A); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+  	background-image:         linear-gradient(to bottom, #50519A, #50519A); /* Chrome 26, Firefox 16+, IE 10+, Opera */
+}
+
+#navigation {
+	#main-nav {
+		
+		ul {
+			&.sub-menu {
+				background: none repeat scroll 0% 0% #2D2F9A;
+				border-radius: 0;
+				margin: 0;
+				padding: 10px 15px;
+				position: absolute;
+				width: 182px;
+				border: medium none;
+				z-index: 999;
+			}		
+		}
+
+
+	}	
+}
+
+#navigation .nav li:hover > a, 
+.nav a:hover  {
+	color: #fff;
+	background: #50519A;
+}
+
+#navigation .nav li.parent > a:after {
+    border-color: #50519A transparent transparent;
+    }

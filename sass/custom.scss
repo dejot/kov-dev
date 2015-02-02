@@ -1,0 +1,114 @@
+@import url("../whitelight/style.css");
+@import 'variables';
+@import 'typography';
+@import 'buttons';
+@import 'headers';
+@import 'testimonials';
+@import 'pricelist-bar';
+@import 'breadcrumbs';
+
+$margins: (5,10,15,20,25,30,35,40,45);
+@each $margin in $margins {
+	.margin-bottom-#{$margin} { margin-bottom: #{$margin}px !important; }
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+	#navigation {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+#sidebar {
+    clear: none;
+    }	
+}
+
+#sidebar {
+    clear: none;
+ 	margin-top: 0;
+ }	
+
+@media only screen and (min-width: 768px) {
+	.home-section ul {
+	float: left; 
+	width: 100%;
+	 } 
+}
+
+#header {
+	padding: 1em 0; 
+}
+
+.post-image {
+	overflow: hidden;
+	height: 320px;
+    
+	.img-holder {
+	    font: 16px/1 Arial sans-serif;        /* <-- reset the font property */
+		img {
+			max-width: 100%;
+		}
+
+	}
+
+
+}
+
+
+
+.testimonials-wrap {
+	width: 100%;
+	background: transparent url('images/testimonials_bg.jpg') 0 0 no-repeat;
+	background-size: cover;
+	.controls-container {
+
+	&.testimonials{
+		width: 960px;
+		height: 380px;
+		padding: 20px;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+}
+}
+
+.featured-wrap {
+	#featured {
+			background: transparent url('images/bg-slider.png') 0 bottom no-repeat;
+			padding-bottom: 25px;
+			}
+	&.carousel {
+			&.faded {
+				background-color: white;
+				background-image: none;
+				box-shadow: none;
+			}		
+		} 
+	.controls-container {
+		overflow: hidden;
+		&.col-full {
+			padding: 20px 0;
+		}
+	}
+	.controls-container ul.flex-direction-nav {
+			top: 44%; 
+			.flex-prev {
+				left: 20px;
+			}
+			.flex-next {
+				right: 20px;
+			}
+		} 	
+}
+
+.search-results {
+	.page {
+		.post-body {
+			float: left;
+		}
+	}	
+}  

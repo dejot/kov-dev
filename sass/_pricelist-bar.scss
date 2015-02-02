@@ -1,0 +1,72 @@
+#pricelist-bar {
+
+
+	.ptp-pricing-table {
+		overflow: hidden;
+		background-color: #f9f9f9;
+		border: 1px solid #ddd;
+	}
+
+	
+	.ptp-three-col {
+	    width: 33.3333%;
+	}
+	.ptp-four-col {
+	    width: 25%;
+
+	    .ptp-plan {
+	    	min-height: 3.13em;
+	    }	    
+	    .ptp-bullet-item {
+	    	min-height: 5.8em;
+	    }
+	}
+	.ptp-five-col {
+	    width: 20%;
+	}
+	.ptp-not-most-popular {
+		display: none;
+	}
+
+    .ptp-item-container {
+    	border: none;
+		.ptp-plan { 
+			background-color: #eee;
+			padding: 0.5em 0.25em 0.25em;
+			text-align: center;
+			}
+		.ptp-price{ 
+			background-color: #f5f5f5;
+			padding: 0.25em 1.25em;
+			text-align: center;
+			}
+		.ptp-bullet-item  {
+			padding: 0.9375em 1.25em;
+			text-align: center;
+			}
+		.ptp-cta  {
+			padding: 0.75em;
+			text-align: center;
+			background-color: white;
+			
+			a.ptp-button{
+				width: 60%;
+				margin: 0 auto;
+				padding: 0.3em 0.75em;
+				border-bottom: none;
+			}
+		}
+
+
+
+    }
+	.ptp-col {
+	    display: block;
+	    float: left;
+		padding: 0;
+		margin: 0;
+	    vertical-align: top;
+	    white-space: normal;
+	}	
+}
+

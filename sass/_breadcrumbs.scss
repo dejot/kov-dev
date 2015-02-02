@@ -1,0 +1,17 @@
+
+.breadcrumbs {
+	font-weight: normal;
+	.breadcrumb-trail {
+		
+		a {
+			color: $purple;
+			&:hover {
+				color: $light-purple;
+				text-decoration: none;
+			}
+		}
+
+
+	}
+
+}
