@@ -64,6 +64,6 @@
 		?>
 		
 		</div><!-- /.col-full -->
-    </div><!-- /#content -->
+    </div><!-- /#content stop-->
 		
 <?php get_footer(); ?>
