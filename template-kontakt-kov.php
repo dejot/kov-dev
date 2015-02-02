@@ -78,7 +78,7 @@
 	        </section><!-- /#main -->
 
 	
-	        <?php get_sidebar(); ?>
+	        <?php get_sidebar('kontakt'); ?>
 		
 		</div>  
     </div><!-- /#content -->
