@@ -15,22 +15,8 @@
     <div id="content">
     
     	<div class="page col-full">
-    	
-    		<?php if ( isset( $woo_options['woo_breadcrumbs_show'] ) && $woo_options['woo_breadcrumbs_show'] == 'true' ) { ?>
-				<section id="breadcrumbs">
-					<?php woo_breadcrumbs(); ?>
-				</section><!--/#breadcrumbs -->
-			<?php } ?>  
-    	
+    		
 			<section id="main" class="col-left">
-			<?php
-				
-				if ( has_post_thumbnail() ) {
-				
-					echo '<div class="post-image margin-bottom-20"><div class="img-holder">';	the_post_thumbnail(); echo '</div></div>';
-
-				}
-			?>	
 				<article <?php post_class(); ?>>
 				  
 				    <section class="entry fix">

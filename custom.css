@@ -137,6 +137,21 @@ a {
   font-weight: normal;
   font-family: 'Signika', Verdana, Arial, Helvetica, sans-serif; }
 
+/* line 173, sass/_typography.scss */
+.your-submit-wrap input[type='submit'] {
+  font-size: .875rem;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-weight: normal; }
+
+/* line 183, sass/_typography.scss */
+.widget.widget_woo_contactus h3 {
+  font-weight: 400;
+  font-size: 1.2em;
+  color: black; }
+/* line 189, sass/_typography.scss */
+.widget.widget_woo_contactus ul li {
+  font-size: .875em; }
+
 /* line 5, sass/_buttons.scss */
 #navigation .nav li a {
   border-radius: 0;
@@ -264,84 +279,122 @@ a {
       color: #50519A;
       text-decoration: none; }
 
-/* line 12, sass/custom.scss */
+/* line 1, sass/_kontaktformular.scss */
+.wpcf7 {
+  margin: 30px 0 0; }
+  /* line 3, sass/_kontaktformular.scss */
+  .wpcf7 label {
+    display: inline-block;
+    margin-bottom: 5px; }
+  /* line 9, sass/_kontaktformular.scss */
+  .wpcf7 input[type='text'],
+  .wpcf7 input[type='email'] {
+    padding: 10px;
+    min-width: 350px; }
+  /* line 15, sass/_kontaktformular.scss */
+  .wpcf7 textarea {
+    min-width: 450px; }
+  /* line 18, sass/_kontaktformular.scss */
+  .wpcf7 .your-name-wrap {
+    margin-bottom: 18px; }
+  /* line 22, sass/_kontaktformular.scss */
+  .wpcf7 .your-email-wrap {
+    margin-bottom: 18px; }
+  /* line 26, sass/_kontaktformular.scss */
+  .wpcf7 .your-subject-wrap {
+    margin-bottom: 18px; }
+  /* line 30, sass/_kontaktformular.scss */
+  .wpcf7 .your-message-wrap {
+    margin-bottom: 18px; }
+  /* line 34, sass/_kontaktformular.scss */
+  .wpcf7 .your-submit-wrap input[type='submit'] {
+    border-radius: 0;
+    padding: 8px 12px;
+    margin-right: 0;
+    background: #050782; }
+
+/* line 3, sass/_widgets.scss */
+.widget.widget_woo_contactus h3 {
+  border-bottom: none; }
+
+/* line 14, sass/custom.scss */
 .margin-bottom-5 {
   margin-bottom: 5px !important; }
 
-/* line 12, sass/custom.scss */
+/* line 14, sass/custom.scss */
 .margin-bottom-10 {
   margin-bottom: 10px !important; }
 
-/* line 12, sass/custom.scss */
+/* line 14, sass/custom.scss */
 .margin-bottom-15 {
   margin-bottom: 15px !important; }
 
-/* line 12, sass/custom.scss */
+/* line 14, sass/custom.scss */
 .margin-bottom-20 {
   margin-bottom: 20px !important; }
 
-/* line 12, sass/custom.scss */
+/* line 14, sass/custom.scss */
 .margin-bottom-25 {
   margin-bottom: 25px !important; }
 
-/* line 12, sass/custom.scss */
+/* line 14, sass/custom.scss */
 .margin-bottom-30 {
   margin-bottom: 30px !important; }
 
-/* line 12, sass/custom.scss */
+/* line 14, sass/custom.scss */
 .margin-bottom-35 {
   margin-bottom: 35px !important; }
 
-/* line 12, sass/custom.scss */
+/* line 14, sass/custom.scss */
 .margin-bottom-40 {
   margin-bottom: 40px !important; }
 
-/* line 12, sass/custom.scss */
+/* line 14, sass/custom.scss */
 .margin-bottom-45 {
   margin-bottom: 45px !important; }
 
 @media only screen and (min-width: 768px) {
-  /* line 19, sass/custom.scss */
+  /* line 21, sass/custom.scss */
   #navigation {
     position: absolute;
     bottom: 0;
     right: 0; }
 
-  /* line 25, sass/custom.scss */
+  /* line 27, sass/custom.scss */
   #sidebar {
     clear: none; } }
-/* line 30, sass/custom.scss */
+/* line 32, sass/custom.scss */
 #sidebar {
   clear: none;
   margin-top: 0; }
 
 @media only screen and (min-width: 768px) {
-  /* line 36, sass/custom.scss */
+  /* line 38, sass/custom.scss */
   .home-section ul {
     float: left;
     width: 100%; } }
-/* line 42, sass/custom.scss */
+/* line 44, sass/custom.scss */
 #header {
   padding: 1em 0; }
 
-/* line 46, sass/custom.scss */
+/* line 48, sass/custom.scss */
 .post-image {
   overflow: hidden;
   height: 320px; }
-  /* line 50, sass/custom.scss */
+  /* line 52, sass/custom.scss */
   .post-image .img-holder {
     font: 16px/1 Arial sans-serif;
     /* <-- reset the font property */ }
-    /* line 52, sass/custom.scss */
+    /* line 54, sass/custom.scss */
     .post-image .img-holder img {
       max-width: 100%; }
 
-/* line 63, sass/custom.scss */
+/* line 65, sass/custom.scss */
 .testimonials-wrap {
   width: 100%;
   background: transparent url("images/testimonials_bg.jpg") 0 0 no-repeat;
   background-size: cover; }
-  /* line 69, sass/custom.scss */
+  /* line 71, sass/custom.scss */
   .testimonials-wrap .controls-container.testimonials {
     width: 960px;
     height: 380px;
@@ -349,31 +402,38 @@ a {
     margin: 0 auto;
     box-sizing: border-box; }
 
-/* line 80, sass/custom.scss */
+/* line 82, sass/custom.scss */
 .featured-wrap #featured {
   background: transparent url("images/bg-slider.png") 0 bottom no-repeat;
   padding-bottom: 25px; }
-/* line 85, sass/custom.scss */
+  /* line 87, sass/custom.scss */
+  .featured-wrap #featured article header .entry {
+    height: auto; }
+/* line 94, sass/custom.scss */
 .featured-wrap.carousel.faded {
   background-color: white;
   background-image: none;
   box-shadow: none; }
-/* line 91, sass/custom.scss */
+/* line 100, sass/custom.scss */
 .featured-wrap .controls-container {
   overflow: hidden; }
-  /* line 93, sass/custom.scss */
+  /* line 102, sass/custom.scss */
   .featured-wrap .controls-container.col-full {
     padding: 20px 0; }
-/* line 97, sass/custom.scss */
+/* line 106, sass/custom.scss */
 .featured-wrap .controls-container ul.flex-direction-nav {
   top: 44%; }
-  /* line 99, sass/custom.scss */
+  /* line 108, sass/custom.scss */
   .featured-wrap .controls-container ul.flex-direction-nav .flex-prev {
     left: 20px; }
-  /* line 102, sass/custom.scss */
+  /* line 111, sass/custom.scss */
   .featured-wrap .controls-container ul.flex-direction-nav .flex-next {
     right: 20px; }
 
-/* line 110, sass/custom.scss */
+/* line 119, sass/custom.scss */
 .search-results .page .post-body {
   float: left; }
+
+/* line 125, sass/custom.scss */
+.woo-sc-quote p {
+  background: url(images/quote_l.png) no-repeat 0 3px; }
