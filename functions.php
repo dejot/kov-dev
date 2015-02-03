@@ -3,16 +3,8 @@
 /*
 Add any custom functions to your child theme here
 */
-$includes = array(
-				'includes/theme-options.php', 			// Options panel settings and custom settings
-				'includes/theme-functions.php',		    // Custom theme functions
-				'includes/theme-actions.php', 			// Theme actions & user defined hooks
-				'includes/theme-comments.php', 			// Custom comments/pingback loop
-				'includes/theme-js.php', 				// Load JavaScript via wp_enqueue_script
-				'includes/sidebar-init.php', 			// Initialize widgetized areas
-				'includes/theme-widgets.php',			// Theme widgets
-			);
-
+$functions_path = get_template_directory() . '/functions/';
+require_once ($functions_path . 'admin-init.php' );			// Framework Init
 /**
  * Darko Jergovic // darko@dejot.ch // www.dejot.ch
  */
@@ -45,7 +37,6 @@ function whitelight_child_fonts_url() {
 	return $fonts_url;
 }
 
-
 /**
  * Richtige Art und Weise Scripts und Styles einzubinden // Proper way to enqueue scripts and styles
  */
@@ -59,8 +50,33 @@ function whitelight_child_scripts() {
 }
 
 
+
+/*-----------------------------------------------------------------------------------*/
+/* 29. Quote 2 - quote2
+/*-----------------------------------------------------------------------------------*/
+/*
+
+Optional arguments:
+ - style: boxed
+ - float: left, right
+
+*/
+function woo_shortcode_quote_kov($atts, $content = null) {
+   	extract(shortcode_atts(array(	'style' => '',
+   									'float' => ''), $atts));
+   $class = '';
+   if ( $style )
+   		$class .= ' '.$style;
+   if ( $float )
+   		$class .= ' '.$float;
+
+   return '<div class="woo-sc-quote' . esc_attr( $class ) . '"><p><span class="quotation_wrap">' . woo_remove_wpautop($content) . '</span></p></div>';
+} // End woo_shortcode_quote()
+
+
+
 /*   Alle hier definierten skripte und funktionen ausführen, sonst läuft nichts!    */
 add_action( 'wp_enqueue_scripts', 'whitelight_child_scripts' );
-
+add_shortcode( 'quote_kov', 'woo_shortcode_quote_kov' );
     
 ?>

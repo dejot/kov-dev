@@ -6,8 +6,6 @@
 @import 'testimonials';
 @import 'pricelist-bar';
 @import 'breadcrumbs';
-@import '_kontaktformular';
-@import 'widgets';
 
 $margins: (5,10,15,20,25,30,35,40,45);
 @each $margin in $margins {
@@ -82,13 +80,6 @@ $margins: (5,10,15,20,25,30,35,40,45);
 	#featured {
 			background: transparent url('images/bg-slider.png') 0 bottom no-repeat;
 			padding-bottom: 25px;
-			article {
-				header {
-					.entry {
-						height: auto;
-					}
-				}
-			}
 			}
 	&.carousel {
 			&.faded {
@@ -123,5 +114,12 @@ $margins: (5,10,15,20,25,30,35,40,45);
 }  
 
 .woo-sc-quote p {
-	background: url(images/quote_l.png) no-repeat 0 3px;
+	background: url("images/quote_l.png") 0 3px no-repeat;
+}
+
+.quotation_wrap {
+	padding: 0 55px 0 0;
+	min-height: 32px;
+	display: inline-block;
+	background: url("images/quote_r.png") right 3px no-repeat;
 }

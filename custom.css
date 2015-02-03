@@ -167,24 +167,6 @@ a:hover {
   font-family: 'Signika', Verdana, Arial, Helvetica, sans-serif;
 }
 
-/* line 173, sass/_typography.scss */
-.your-submit-wrap input[type='submit'] {
-  font-size: .875rem;
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-weight: normal;
-}
-
-/* line 183, sass/_typography.scss */
-.widget.widget_woo_contactus h3 {
-  font-weight: 400;
-  font-size: 1.2em;
-  color: black;
-}
-/* line 189, sass/_typography.scss */
-.widget.widget_woo_contactus ul li {
-  font-size: .875em;
-}
-
 /* line 5, sass/_buttons.scss */
 #navigation .nav li a {
   border-radius: 0;
@@ -338,164 +320,104 @@ a:hover {
   text-decoration: none;
 }
 
-/* line 2, sass/_kontaktformular.scss */
-.kontakt section.entry {
-  background-color: #f5f5f5;
-  padding: 20px;
-}
-
-/* line 8, sass/_kontaktformular.scss */
-.wpcf7 {
-  margin: 30px 0 0;
-}
-/* line 10, sass/_kontaktformular.scss */
-.wpcf7 label {
-  display: inline-block;
-  margin-bottom: 5px;
-}
-/* line 16, sass/_kontaktformular.scss */
-.wpcf7 input[type='text'],
-.wpcf7 input[type='email'] {
-  padding: 10px;
-  min-width: 350px;
-}
-/* line 22, sass/_kontaktformular.scss */
-.wpcf7 textarea {
-  min-width: 450px;
-}
-/* line 25, sass/_kontaktformular.scss */
-.wpcf7 .your-name-wrap {
-  margin-bottom: 18px;
-}
-/* line 29, sass/_kontaktformular.scss */
-.wpcf7 .your-email-wrap {
-  margin-bottom: 18px;
-}
-/* line 33, sass/_kontaktformular.scss */
-.wpcf7 .your-subject-wrap {
-  margin-bottom: 18px;
-}
-/* line 37, sass/_kontaktformular.scss */
-.wpcf7 .your-message-wrap {
-  margin-bottom: 18px;
-}
-/* line 41, sass/_kontaktformular.scss */
-.wpcf7 .your-submit-wrap input[type='submit'] {
-  border-radius: 0;
-  padding: 8px 12px;
-  margin-right: 0;
-  background: #050782;
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#050782, endColorstr=#050782);
-}
-/* line 48, sass/_kontaktformular.scss */
-.wpcf7 .your-submit-wrap input[type='submit']:hover {
-  background: #50519A;
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#50519A, endColorstr=#50519A);
-}
-
-/* line 3, sass/_widgets.scss */
-.widget.widget_woo_contactus h3 {
-  border-bottom: none;
-}
-
-/* line 14, sass/custom.scss */
+/* line 12, sass/custom.scss */
 .margin-bottom-5 {
   margin-bottom: 5px !important;
 }
 
-/* line 14, sass/custom.scss */
+/* line 12, sass/custom.scss */
 .margin-bottom-10 {
   margin-bottom: 10px !important;
 }
 
-/* line 14, sass/custom.scss */
+/* line 12, sass/custom.scss */
 .margin-bottom-15 {
   margin-bottom: 15px !important;
 }
 
-/* line 14, sass/custom.scss */
+/* line 12, sass/custom.scss */
 .margin-bottom-20 {
   margin-bottom: 20px !important;
 }
 
-/* line 14, sass/custom.scss */
+/* line 12, sass/custom.scss */
 .margin-bottom-25 {
   margin-bottom: 25px !important;
 }
 
-/* line 14, sass/custom.scss */
+/* line 12, sass/custom.scss */
 .margin-bottom-30 {
   margin-bottom: 30px !important;
 }
 
-/* line 14, sass/custom.scss */
+/* line 12, sass/custom.scss */
 .margin-bottom-35 {
   margin-bottom: 35px !important;
 }
 
-/* line 14, sass/custom.scss */
+/* line 12, sass/custom.scss */
 .margin-bottom-40 {
   margin-bottom: 40px !important;
 }
 
-/* line 14, sass/custom.scss */
+/* line 12, sass/custom.scss */
 .margin-bottom-45 {
   margin-bottom: 45px !important;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 21, sass/custom.scss */
+  /* line 19, sass/custom.scss */
   #navigation {
     position: absolute;
     bottom: 0;
     right: 0;
   }
 
-  /* line 27, sass/custom.scss */
+  /* line 25, sass/custom.scss */
   #sidebar {
     clear: none;
   }
 }
-/* line 32, sass/custom.scss */
+/* line 30, sass/custom.scss */
 #sidebar {
   clear: none;
   margin-top: 0;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 38, sass/custom.scss */
+  /* line 36, sass/custom.scss */
   .home-section ul {
     float: left;
     width: 100%;
   }
 }
-/* line 44, sass/custom.scss */
+/* line 42, sass/custom.scss */
 #header {
   padding: 1em 0;
 }
 
-/* line 48, sass/custom.scss */
+/* line 46, sass/custom.scss */
 .post-image {
   overflow: hidden;
   height: 320px;
 }
-/* line 52, sass/custom.scss */
+/* line 50, sass/custom.scss */
 .post-image .img-holder {
   font: 16px/1 Arial sans-serif;
   /* <-- reset the font property */
 }
-/* line 54, sass/custom.scss */
+/* line 52, sass/custom.scss */
 .post-image .img-holder img {
   max-width: 100%;
 }
 
-/* line 65, sass/custom.scss */
+/* line 63, sass/custom.scss */
 .testimonials-wrap {
   width: 100%;
   background: transparent url("images/testimonials_bg.jpg") 0 0 no-repeat;
   background-size: cover;
 }
-/* line 71, sass/custom.scss */
+/* line 69, sass/custom.scss */
 .testimonials-wrap .controls-container.testimonials {
   width: 960px;
   height: 380px;
@@ -504,48 +426,52 @@ a:hover {
   box-sizing: border-box;
 }
 
-/* line 82, sass/custom.scss */
+/* line 80, sass/custom.scss */
 .featured-wrap #featured {
   background: transparent url("images/bg-slider.png") 0 bottom no-repeat;
   padding-bottom: 25px;
 }
-/* line 87, sass/custom.scss */
-.featured-wrap #featured article header .entry {
-  height: auto;
-}
-/* line 94, sass/custom.scss */
+/* line 85, sass/custom.scss */
 .featured-wrap.carousel.faded {
   background-color: white;
   background-image: none;
   box-shadow: none;
 }
-/* line 100, sass/custom.scss */
+/* line 91, sass/custom.scss */
 .featured-wrap .controls-container {
   overflow: hidden;
 }
-/* line 102, sass/custom.scss */
+/* line 93, sass/custom.scss */
 .featured-wrap .controls-container.col-full {
   padding: 20px 0;
 }
-/* line 106, sass/custom.scss */
+/* line 97, sass/custom.scss */
 .featured-wrap .controls-container ul.flex-direction-nav {
   top: 44%;
 }
-/* line 108, sass/custom.scss */
+/* line 99, sass/custom.scss */
 .featured-wrap .controls-container ul.flex-direction-nav .flex-prev {
   left: 20px;
 }
-/* line 111, sass/custom.scss */
+/* line 102, sass/custom.scss */
 .featured-wrap .controls-container ul.flex-direction-nav .flex-next {
   right: 20px;
 }
 
-/* line 119, sass/custom.scss */
+/* line 110, sass/custom.scss */
 .search-results .page .post-body {
   float: left;
 }
 
-/* line 125, sass/custom.scss */
+/* line 116, sass/custom.scss */
 .woo-sc-quote p {
-  background: url(images/quote_l.png) no-repeat 0 3px;
+  background: url("images/quote_l.png") 0 3px no-repeat;
+}
+
+/* line 120, sass/custom.scss */
+.quotation_wrap {
+  padding: 0 55px 0 0;
+  min-height: 32px;
+  display: inline-block;
+  background: url("images/quote_r.png") right 3px no-repeat;
 }

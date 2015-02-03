@@ -169,26 +169,3 @@ a {
 	}
 	
 }
-.your-submit-wrap {
-	input[type='submit'] {
-		font-size: .875rem;
-		font-family: Verdana, Helvetica, Arial, sans-serif;	
-		font-weight: normal;
-	}
-
-}
-
-.widget{
-	&.widget_woo_contactus {
-		h3 {
-			font-weight: 400;
-			font-size: 1.2em;
-			color: black;
-		}
-		ul {
-			li {
-				font-size: .875em;
-			}
-		}
-	}
-}
