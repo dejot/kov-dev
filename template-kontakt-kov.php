@@ -16,7 +16,7 @@
     
     	<div class="page col-full">
     		
-			<section id="main" class="col-left">
+			<section id="main" class="col-left kontakt">
 				<article <?php post_class(); ?>>
 				  
 				    <section class="entry fix">

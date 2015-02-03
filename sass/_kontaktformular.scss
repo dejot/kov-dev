@@ -1,3 +1,10 @@
+.kontakt {
+	section.entry {
+		background-color: $grey-two;
+		padding: 20px;		
+	}
+}
+
 .wpcf7 {
 	margin: 30px 0 0;
 	label {
@@ -35,7 +42,13 @@
 			border-radius: 0;
 			padding: 8px 12px;
 			margin-right: 0;
-			background: #050782;		
+			background: $purple;
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#050782, endColorstr=#050782);	
+			
+			&:hover {
+				background: $light-purple;
+				filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#50519A, endColorstr=#50519A);				
+			}	
 		}
 
 	}	
