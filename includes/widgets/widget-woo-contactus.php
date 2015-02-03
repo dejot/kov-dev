@@ -25,12 +25,12 @@ class Woo_ContactUs extends WP_Widget {
             
         <div class="wrap">
             <ul>
-            	<?php if ($phone != '') { ?><li class="phone"><span><?php _e( 'Telefon', 'woothemes' ); ?></span><?php echo $phone; ?></li><?php } ?>
-            	<?php if ($email != '') { ?><li class="email"><span><?php _e( 'E-Mail', 'woothemes' ); ?></span><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li><?php } ?>
+            	<?php if ($phone != '') { ?><li class="phone"><span><?php _e( 'Phone', 'woothemes' ); ?></span><?php echo $phone; ?></li><?php } ?>
+            	<?php if ($email != '') { ?><li class="email"><span><?php _e( 'Email', 'woothemes' ); ?></span><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li><?php } ?>
             	<?php if ($vcard != '') { ?><li class="vcard"><span><?php _e( 'V-Card', 'woothemes' ); ?></span><a href="<?php echo $vcard; ?>"><?php _e( 'Download', 'woothemes' ); ?></a></li><?php } ?>
             	<?php if ($address != '') { ?>
             		<li class="address">
-            			<span><?php _e( 'Adresse', 'woothemes' ); ?></span>
+            			<span><?php _e( 'Address', 'woothemes' ); ?></span>
             			<?php _e( nl2br($address),'woothemes'); ?>
             			<?php if ( isset($map_page_template) && $map_page_template != '' ) { ?>
 							<a href="<?php echo get_permalink($map_page_template); ?>" class="map"><?php _e( 'Map','woothemes'); ?> &raquo;</a>

@@ -3,15 +3,15 @@
 /*
 Add any custom functions to your child theme here
 */
-//$includes = array(
-				//'includes/theme-options.php', 			// Options panel settings and custom settings
-				//'includes/theme-functions.php', 		// Custom theme functions
-				//'includes/theme-actions.php', 			// Theme actions & user defined hooks
-				//'includes/theme-comments.php', 			// Custom comments/pingback loop
-				//'includes/theme-js.php', 				// Load JavaScript via wp_enqueue_script
-//				'includes/sidebar-init.php', 			// Initialize widgetized areas
-				//'includes/theme-widgets.php',			// Theme widgets
-//				);
+$includes = array(
+				'includes/theme-options.php', 			// Options panel settings and custom settings
+				'includes/theme-functions.php',		    // Custom theme functions
+				'includes/theme-actions.php', 			// Theme actions & user defined hooks
+				'includes/theme-comments.php', 			// Custom comments/pingback loop
+				'includes/theme-js.php', 				// Load JavaScript via wp_enqueue_script
+				'includes/sidebar-init.php', 			// Initialize widgetized areas
+				'includes/theme-widgets.php',			// Theme widgets
+			);
 
 /**
  * Darko Jergovic // darko@dejot.ch // www.dejot.ch

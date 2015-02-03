@@ -867,7 +867,7 @@ function woo_shortcode_quote($atts, $content = null) {
    if ( $float )
    		$class .= ' '.$float;
 
-   return '<div class="woo-sc-quote' . esc_attr( $class ) . '"><p>' . woo_remove_wpautop($content) . '</p></div>';
+   return '<div class="woo-sc-quote' . esc_attr( $class ) . '"><p><span class="quotation_wrap">' . woo_remove_wpautop($content) . '</span></p></div>';
 } // End woo_shortcode_quote()
 add_shortcode( 'quote', 'woo_shortcode_quote' );
 
