@@ -26,6 +26,7 @@
 	wp_head();
 	woo_head();
 ?>
+<meta name="google-site-verification" content="ba4ZuCtelyw05prxn6jgTzYh8MkVwSklDtBtl3uqqYs" />
 </head>
 
 <body <?php body_class(); ?>>
