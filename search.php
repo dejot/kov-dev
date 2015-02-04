@@ -42,7 +42,7 @@
 			<?php else : ?>
 	        
 	            <article <?php post_class(); ?>>
-	                <p><?php _e( 'Kein Suchresultat unter deim eingegebenen Suchbegriff.', 'woothemes' ); ?></p>
+	                <p><?php _e( 'Kein Suchresultat unter dem eingegebenen Suchbegriff.', 'woothemes' ); ?></p>
 	            </article><!-- /.post -->
 	        
 	        <?php endif; ?>

@@ -1,21 +1,12 @@
 .widget_woothemes_testimonials {
-
-	font-size: 0.813em;
-
+	margin-bottom: .875em;
 	.quote {
-//		blockquote {
-//			}
+		margin-bottom: .875em;
+		blockquote p{
+			margin-bottom: .25em;
+		}
 			.author {
 				margin-top: .25em;
-			}	
-		}
-
-//		&.first {
-
-//		}
-//		&.last {
-			
-//		}
-	margin-bottom: 1em;
-
+			}
+	}
 }

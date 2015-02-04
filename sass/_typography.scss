@@ -132,15 +132,30 @@ a {
 		h1 a {
 			font-family: 'Droid Serif', 'Lora', Georgia, serif;
 		}
-	}	
+	}
+
+
+
 }
 
+.page-template-template-kontakt-kov {
+		.widget_woo_contactus {
+			.wrap {
+				ul {
+					li {
+						font-size: .875em;	
+					}
+				}
+			}
+	}
+}
 .entry {
 
 	#featured article header &{
 	  font-size: 1.5em;
 	  line-height: 1.3em;
 	  font-family: Verdana, Helvetica, Arial, sans-serif;
+	  font-weight: normal;
 	}
 	
 }
@@ -169,3 +184,11 @@ a {
 	}
 	
 }
+.widget {
+	p, 
+	cite{
+		font-size: .75rem;
+	}
+}
+
+
