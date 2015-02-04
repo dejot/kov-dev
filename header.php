@@ -17,6 +17,7 @@
 <head>
 
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="google-site-verification" content="ba4ZuCtelyw05prxn6jgTzYh8MkVwSklDtBtl3uqqYs" />
 
 <title><?php woo_title(); ?></title>
 <?php woo_meta(); ?>
@@ -26,7 +27,7 @@
 	wp_head();
 	woo_head();
 ?>
-<meta name="google-site-verification" content="ba4ZuCtelyw05prxn6jgTzYh8MkVwSklDtBtl3uqqYs" />
+<script src="http://www.kov-consulting.ch/wp-content/themes/whitelight-child/scripts/jquery.matchHeight-min.js" type="text/javascript"></script>
 </head>
 
 <body <?php body_class(); ?>>
