@@ -24,7 +24,7 @@
 				</section><!--/#breadcrumbs -->
 			<?php } ?>  	
 			
-			<header class="archive_header"><?php echo __( 'Search results:', 'woothemes' ) . ' '; the_search_query(); ?></header>
+			<header class="archive_header"><?php echo __( 'Suchresultate:', 'woothemes' ) . ' '; the_search_query(); ?></header>
     		
 			<section id="main" class="col-left">
 	            
@@ -42,7 +42,7 @@
 			<?php else : ?>
 	        
 	            <article <?php post_class(); ?>>
-	                <p><?php _e( 'Sorry, no posts matched your criteria.', 'woothemes' ); ?></p>
+	                <p><?php _e( 'Kein Suchresultat unter deim eingegebenen Suchbegriff.', 'woothemes' ); ?></p>
 	            </article><!-- /.post -->
 	        
 	        <?php endif; ?>

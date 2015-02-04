@@ -39,12 +39,12 @@
 			</header>
 	
 			<section class="entry">
-			<?php if ( isset( $woo_options['woo_post_content'] ) && $woo_options['woo_post_content'] == 'content' ) { the_content( __( 'Continue Reading &rarr;', 'woothemes' ) ); } else { the_excerpt(); } ?>
+			<?php if ( isset( $woo_options['woo_post_content'] ) && $woo_options['woo_post_content'] == 'content' ) { the_content( __( 'Weiter lesen &rarr;', 'woothemes' ) ); } else { the_excerpt(); } ?>
 			</section>
 	
 			<footer class="post-more">      
 			<?php if ( isset( $woo_options['woo_post_content'] ) && $woo_options['woo_post_content'] == 'excerpt' ) { ?>
-				<span class="read-more"><a href="<?php the_permalink(); ?>" title="<?php esc_attr_e( 'Continue Reading &rarr;', 'woothemes' ); ?>"><?php _e( 'Continue Reading &rarr;', 'woothemes' ); ?></a></span>
+				<span class="read-more"><a href="<?php the_permalink(); ?>" title="<?php esc_attr_e( 'Weiter lesen &rarr;', 'woothemes' ); ?>"><?php _e( 'Weiter lesen &rarr;', 'woothemes' ); ?></a></span>
 			<?php } ?>
 			</footer>  
 		

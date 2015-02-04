@@ -6,6 +6,7 @@
 @import 'testimonials';
 @import 'pricelist-bar';
 @import 'breadcrumbs';
+@import 'kontaktformular';
 
 $margins: (5,10,15,20,25,30,35,40,45);
 @each $margin in $margins {
@@ -114,12 +115,12 @@ $margins: (5,10,15,20,25,30,35,40,45);
 }  
 
 .woo-sc-quote p {
-	background: url("images/quote_l.png") 0 3px no-repeat;
+	background: url("images/quote_l.png") 0 0 no-repeat;
 }
 
 .quotation_wrap {
 	padding: 0 55px 0 0;
 	min-height: 32px;
 	display: inline-block;
-	background: url("images/quote_r.png") right 3px no-repeat;
+	background: url("images/quote_r.png") right 0 no-repeat;
 }

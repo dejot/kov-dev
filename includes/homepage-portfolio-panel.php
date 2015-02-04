@@ -26,12 +26,7 @@
 	
 ?>
 			<section id="portfolio" class="home-section fix">
-    		
-    			<header class="block">
-    				<h1><?php echo stripslashes( $settings['portfolio_area_title'] ); ?></h1>
-    				<p><?php echo stripslashes( $settings['portfolio_area_message'] ); ?></p>
-    				<a class="more" href="<?php if ( $settings['portfolio_area_link_URL'] != '' ) echo $settings['portfolio_area_link_URL']; else echo get_post_type_archive_link('portfolio'); ?>" title="<?php $settings['portfolio_area_link_text']; ?>"><?php echo $settings['portfolio_area_link_text']; ?></a>
-    			</header>
+    	
     			
     			<?php 		
     			$count = 0;

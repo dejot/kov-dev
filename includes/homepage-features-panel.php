@@ -40,12 +40,7 @@
 			if ( have_posts() ) { $count = 0; ?>
 			<section id="features" class="home-section fix">
     		
-    			<header class="block">
-    				<h1><?php echo stripslashes( get_option('woo_features_area_title') ); ?></h1>
-    				<p><?php echo stripslashes( get_option('woo_features_area_message') ); ?></p>
-    				<a class="more" href="<?php if ( $settings['features_area_link_URL'] != '' ) echo $settings['features_area_link_URL']; else echo get_post_type_archive_link('features'); ?>" title="<?php echo stripslashes( get_option('woo_features_area_link_text') ); ?>"><?php echo stripslashes( get_option('woo_features_area_link_text') ); ?></a>
-    			</header>
-    			
+  		
     			<ul>
 				<?php
 				while ( have_posts() ) { the_post(); $count++;
@@ -56,13 +51,17 @@
 	    				<h2><a href="<?php if ( $feature_readmore != '' ) { echo $feature_readmore; } else { the_permalink(); } ?>"><?php the_title(); ?></a></h2>
 	    				<?php $feature_excerpt = get_post_meta( $post->ID, 'feature_excerpt', true ); ?>
 	    				<p>
-	    					<?php $feature_icon = get_post_meta( $post->ID, 'feature_icon', true ); if ( $feature_icon ) { ?><img src="<?php echo get_post_meta( $post->ID, 'feature_icon', true ); ?>" alt="" /><?php } ?>
-	    					<?php 
-	    					if ( $feature_excerpt != '' ) { 
-	    						echo stripslashes( $feature_excerpt ); 
-	    					} else { 
-	    						the_excerpt(); 
-	    					} ?>
+		    				<a href="<?php if ( $feature_readmore != '' ) { echo $feature_readmore; } else { the_permalink(); } ?>"> 	 <?php $feature_icon = get_post_meta( $post->ID, 'feature_icon', true ); if ( $feature_icon ) { ?><img src="<?php echo get_post_meta( $post->ID, 'feature_icon', true ); ?>" alt="" /><?php } ?>
+
+	    					</a>
+		    					<?php 
+		    					if ( $feature_excerpt != '' ) { 
+		    						echo stripslashes( $feature_excerpt ); 
+		    					} else { 
+		    						the_excerpt();
+		    					} ?>
+	    					<a href="<?php if ( $feature_readmore != '' ) { echo $feature_readmore; } else { the_permalink(); } ?>"> weiterlesen...
+	    					</a>
 	    				</p>
 	    				</li>
 	    				<?php if ( $count % 3 == 0 ) { echo '<li class="fix clear"></li>'; } ?>
