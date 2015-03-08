@@ -15,55 +15,17 @@ $margins: (5,10,15,20,25,30,35,40,45);
 
 
 
-#wrapper {
-	background-color: #fff;
-	padding: 0 20px;
-}
-#footer {
-	background-color: #fff;
-	color: #000;
-}
-.nav-toggle {
-	right: 0;
-}
-.featured-wrap{
-	display: none;
-}
-#pricelist-bar .ptp-three-col {
-	width: 100%;
-}
-#pricelist-bar .ptp-four-col {
-	width: 100%;
-}
 
 @media only screen and (min-width: 768px) {
-	#wrapper {
-		background-color: #fff;
-		padding: 0;
-	}
 	#navigation {
 		position: absolute;
 		bottom: 0;
 		right: 0;
 	}
 
-	#sidebar {
-	    clear: none;
-	}
-	#footer {
-		background-color: #0d0d0d;
-		color: inherit;
-	}
-	.featured-wrap {
-		display: block;
-	}
-	#pricelist-bar .ptp-three-col {
-		width: 33.3333%;
-	}	
-	#pricelist-bar .ptp-four-col {
-		width: 25%;
-	}
-
+#sidebar {
+    clear: none;
+    }	
 }
 
 #sidebar {
@@ -76,7 +38,6 @@ $margins: (5,10,15,20,25,30,35,40,45);
 	float: left; 
 	width: 100%;
 	 } 
-
 }
 
 #header {

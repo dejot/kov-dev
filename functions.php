@@ -78,5 +78,14 @@ function woo_shortcode_quote_kov($atts, $content = null) {
 /*   Alle hier definierten skripte und funktionen ausführen, sonst läuft nichts!    */
 add_action( 'wp_enqueue_scripts', 'whitelight_child_scripts' );
 add_shortcode( 'quote_kov', 'woo_shortcode_quote_kov' );
+
+function register_scripts() {
+	if ( !is_admin() ) {
+                // include your script
+		wp_enqueue_script( 'app', get_bloginfo( 'template_url' ) . '-child/scripts/app.js' );
+	}
+}
+
+add_action( 'wp_enqueue_scripts', 'register_scripts' );
     
 ?>

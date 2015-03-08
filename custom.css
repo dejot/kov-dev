@@ -40,7 +40,7 @@ h1 #featured {
 
 /* line 46, sass/_typography.scss */
 .entry h2 {
-  font-size: 1.4em; }
+  font-size: 1.6em; }
 /* line 49, sass/_typography.scss */
 #features h2 {
   font-weight: normal;
@@ -146,6 +146,11 @@ a {
 .widget p,
 .widget cite {
   font-size: .75rem; }
+
+/* line 195, sass/_typography.scss */
+.wpcf7 input,
+.wpcf7 textarea {
+  font-size: 100%; }
 
 /* line 5, sass/_buttons.scss */
 #navigation .nav li a {
@@ -363,96 +368,48 @@ a {
 .margin-bottom-45 {
   margin-bottom: 45px !important; }
 
-/* line 18, sass/custom.scss */
-#wrapper {
-  background-color: #fff;
-  padding: 0 20px; }
-
-/* line 22, sass/custom.scss */
-#footer {
-  background-color: #fff;
-  color: #000; }
-
-/* line 26, sass/custom.scss */
-.nav-toggle {
-  right: 0; }
-
-/* line 29, sass/custom.scss */
-.featured-wrap {
-  display: none; }
-
-/* line 32, sass/custom.scss */
-#pricelist-bar .ptp-three-col {
-  width: 100%; }
-
-/* line 35, sass/custom.scss */
-#pricelist-bar .ptp-four-col {
-  width: 100%; }
-
 @media only screen and (min-width: 768px) {
-  /* line 40, sass/custom.scss */
-  #wrapper {
-    background-color: #fff;
-    padding: 0; }
-
-  /* line 44, sass/custom.scss */
+  /* line 20, sass/custom.scss */
   #navigation {
     position: absolute;
     bottom: 0;
     right: 0; }
 
-  /* line 50, sass/custom.scss */
+  /* line 26, sass/custom.scss */
   #sidebar {
-    clear: none; }
-
-  /* line 53, sass/custom.scss */
-  #footer {
-    background-color: #0d0d0d;
-    color: inherit; }
-
-  /* line 57, sass/custom.scss */
-  .featured-wrap {
-    display: block; }
-
-  /* line 60, sass/custom.scss */
-  #pricelist-bar .ptp-three-col {
-    width: 33.3333%; }
-
-  /* line 63, sass/custom.scss */
-  #pricelist-bar .ptp-four-col {
-    width: 25%; } }
-/* line 69, sass/custom.scss */
+    clear: none; } }
+/* line 31, sass/custom.scss */
 #sidebar {
   clear: none;
   margin-top: 0; }
 
 @media only screen and (min-width: 768px) {
-  /* line 75, sass/custom.scss */
+  /* line 37, sass/custom.scss */
   .home-section ul {
     float: left;
     width: 100%; } }
-/* line 82, sass/custom.scss */
+/* line 43, sass/custom.scss */
 #header {
   padding: 1em 0; }
 
-/* line 86, sass/custom.scss */
+/* line 47, sass/custom.scss */
 .post-image {
   overflow: hidden;
   height: 320px; }
-  /* line 90, sass/custom.scss */
+  /* line 51, sass/custom.scss */
   .post-image .img-holder {
     font: 16px/1 Arial sans-serif;
     /* <-- reset the font property */ }
-    /* line 92, sass/custom.scss */
+    /* line 53, sass/custom.scss */
     .post-image .img-holder img {
       max-width: 100%; }
 
-/* line 103, sass/custom.scss */
+/* line 64, sass/custom.scss */
 .testimonials-wrap {
   width: 100%;
   background: transparent url("images/testimonials_bg.jpg") 0 0 no-repeat;
   background-size: cover; }
-  /* line 109, sass/custom.scss */
+  /* line 70, sass/custom.scss */
   .testimonials-wrap .controls-container.testimonials {
     width: 960px;
     height: 380px;
@@ -460,40 +417,40 @@ a {
     margin: 0 auto;
     box-sizing: border-box; }
 
-/* line 120, sass/custom.scss */
+/* line 81, sass/custom.scss */
 .featured-wrap #featured {
   background: transparent url("images/bg-slider.png") 0 bottom no-repeat;
   padding-bottom: 25px; }
-/* line 125, sass/custom.scss */
+/* line 86, sass/custom.scss */
 .featured-wrap.carousel.faded {
   background-color: white;
   background-image: none;
   box-shadow: none; }
-/* line 131, sass/custom.scss */
+/* line 92, sass/custom.scss */
 .featured-wrap .controls-container {
   overflow: hidden; }
-  /* line 133, sass/custom.scss */
+  /* line 94, sass/custom.scss */
   .featured-wrap .controls-container.col-full {
     padding: 20px 0; }
-/* line 137, sass/custom.scss */
+/* line 98, sass/custom.scss */
 .featured-wrap .controls-container ul.flex-direction-nav {
   top: 44%; }
-  /* line 139, sass/custom.scss */
+  /* line 100, sass/custom.scss */
   .featured-wrap .controls-container ul.flex-direction-nav .flex-prev {
     left: 20px; }
-  /* line 142, sass/custom.scss */
+  /* line 103, sass/custom.scss */
   .featured-wrap .controls-container ul.flex-direction-nav .flex-next {
     right: 20px; }
 
-/* line 150, sass/custom.scss */
+/* line 111, sass/custom.scss */
 .search-results .page .post-body {
   float: left; }
 
-/* line 156, sass/custom.scss */
+/* line 117, sass/custom.scss */
 .woo-sc-quote p {
   background: url("images/quote_l.png") 0 0 no-repeat; }
 
-/* line 160, sass/custom.scss */
+/* line 121, sass/custom.scss */
 .quotation_wrap {
   padding: 0 55px 0 0;
   min-height: 32px;

@@ -12,7 +12,7 @@
  global $woo_options; 
  get_header();
 ?> 
-    <div id="content contact-responsive">
+    <div id="content" class="content contact-responsive">
     
     	<div class="page col-full">
     		
