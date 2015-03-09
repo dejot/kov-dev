@@ -294,40 +294,44 @@ a {
   padding: 20px; }
 
 /* line 8, sass/_kontaktformular.scss */
+div.wpcf7-validation-errors {
+  border: 2px solid #f00; }
+
+/* line 12, sass/_kontaktformular.scss */
 .wpcf7 {
   margin: 30px 0 0; }
-  /* line 10, sass/_kontaktformular.scss */
+  /* line 14, sass/_kontaktformular.scss */
   .wpcf7 label {
     display: inline-block;
     margin-bottom: 5px; }
-  /* line 16, sass/_kontaktformular.scss */
+  /* line 20, sass/_kontaktformular.scss */
   .wpcf7 input[type='text'],
   .wpcf7 input[type='email'] {
     padding: 10px;
     min-width: 350px; }
-  /* line 22, sass/_kontaktformular.scss */
+  /* line 26, sass/_kontaktformular.scss */
   .wpcf7 textarea {
     min-width: 450px; }
-  /* line 25, sass/_kontaktformular.scss */
+  /* line 29, sass/_kontaktformular.scss */
   .wpcf7 .your-name-wrap {
     margin-bottom: 18px; }
-  /* line 29, sass/_kontaktformular.scss */
+  /* line 33, sass/_kontaktformular.scss */
   .wpcf7 .your-email-wrap {
     margin-bottom: 18px; }
-  /* line 33, sass/_kontaktformular.scss */
+  /* line 37, sass/_kontaktformular.scss */
   .wpcf7 .your-subject-wrap {
     margin-bottom: 18px; }
-  /* line 37, sass/_kontaktformular.scss */
+  /* line 41, sass/_kontaktformular.scss */
   .wpcf7 .your-message-wrap {
     margin-bottom: 18px; }
-  /* line 41, sass/_kontaktformular.scss */
+  /* line 45, sass/_kontaktformular.scss */
   .wpcf7 .your-submit-wrap input[type='submit'] {
     border-radius: 0;
     padding: 8px 12px;
     margin-right: 0;
     background: #050782;
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#050782, endColorstr=#050782); }
-    /* line 48, sass/_kontaktformular.scss */
+    /* line 52, sass/_kontaktformular.scss */
     .wpcf7 .your-submit-wrap input[type='submit']:hover {
       background: #50519A;
       filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#50519A, endColorstr=#50519A); }
