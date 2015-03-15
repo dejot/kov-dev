@@ -13,9 +13,6 @@ $margins: (5,10,15,20,25,30,35,40,45);
 	.margin-bottom-#{$margin} { margin-bottom: #{$margin}px !important; }
 }
 
-
-
-
 @media only screen and (min-width: 768px) {
 	#navigation {
 		position: absolute;
@@ -41,7 +38,30 @@ $margins: (5,10,15,20,25,30,35,40,45);
 }
 
 #header {
-	padding: 1em 0; 
+	padding: 1em 2em; 
+	@media only screen and (min-width: 768px) {
+		padding: 1em 0; 
+	}
+}
+
+#intro {
+	padding: 2em; 
+	@media only screen and (min-width: 768px) {
+		padding: 2em 0; 
+	}	
+}
+
+#content {
+	padding: 3em 2em 2em; 
+	@media only screen and (min-width: 768px) {
+		padding: 3em 0 2em; 
+	}
+}
+#footer {
+	padding: 2em 2em 3em; 
+	@media only screen and (min-width: 768px) {
+		padding: 2em 0 3em; 
+	}
 }
 
 .post-image {
@@ -78,6 +98,14 @@ $margins: (5,10,15,20,25,30,35,40,45);
 }
 
 .featured-wrap {
+ 
+ 	display: none;
+	 @media only screen and (min-width: 768px) {
+		display: block;
+	}
+
+
+
 	#featured {
 			background: transparent url('images/bg-slider.png') 0 bottom no-repeat;
 			padding-bottom: 25px;
