@@ -34,7 +34,8 @@ div.wpcf7-validation-errors {
 
 	textarea {
 		min-width: 100%;
-    	box-sizing: border-box; 
+    	box-sizing: border-box;
+    	resize: none; 
 		@media only screen and (min-width: 768px) {
 			min-width: 450px; 
 		}

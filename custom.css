@@ -223,58 +223,79 @@ a {
   border: 1px solid #ddd; }
 /* line 11, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-three-col {
-  width: 33.3333%; }
-/* line 14, sass/_pricelist-bar.scss */
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    /* line 11, sass/_pricelist-bar.scss */
+    #pricelist-bar .ptp-three-col {
+      width: 33.3333%;
+      border-bottom: none; } }
+/* line 20, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-four-col {
-  width: 25%; }
-  /* line 17, sass/_pricelist-bar.scss */
+  width: 100%; }
+  @media only screen and (min-width: 768px) and (max-width: 920px) {
+    /* line 20, sass/_pricelist-bar.scss */
+    #pricelist-bar .ptp-four-col {
+      width: 50%;
+      border-bottom: 1px solid #ccc; } }
+  @media only screen and (min-width: 921px) {
+    /* line 20, sass/_pricelist-bar.scss */
+    #pricelist-bar .ptp-four-col {
+      width: 25%;
+      border-bottom: none; } }
+  /* line 33, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-four-col .ptp-plan {
     min-height: 3.13em; }
-  /* line 20, sass/_pricelist-bar.scss */
+  /* line 36, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-four-col .ptp-bullet-item {
     min-height: 5.8em; }
-/* line 24, sass/_pricelist-bar.scss */
+/* line 40, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-five-col {
-  width: 20%; }
-/* line 27, sass/_pricelist-bar.scss */
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    /* line 40, sass/_pricelist-bar.scss */
+    #pricelist-bar .ptp-five-col {
+      width: 20%;
+      border-bottom: none; } }
+/* line 47, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-not-most-popular {
   display: none; }
-/* line 31, sass/_pricelist-bar.scss */
+/* line 51, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-item-container {
   border: none; }
-  /* line 33, sass/_pricelist-bar.scss */
+  /* line 53, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-item-container .ptp-plan {
     background-color: #eee;
     padding: 0.5em 0.25em 0.25em;
     text-align: center; }
-  /* line 38, sass/_pricelist-bar.scss */
+  /* line 58, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-item-container .ptp-price {
     background-color: #f5f5f5;
     padding: 0.25em 1.25em;
     text-align: center; }
-  /* line 43, sass/_pricelist-bar.scss */
+  /* line 63, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-item-container .ptp-bullet-item {
     padding: 0.9375em 1.25em;
     text-align: center; }
-  /* line 47, sass/_pricelist-bar.scss */
+  /* line 67, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-item-container .ptp-cta {
     padding: 0.75em;
     text-align: center;
     background-color: white; }
-    /* line 52, sass/_pricelist-bar.scss */
+    /* line 72, sass/_pricelist-bar.scss */
     #pricelist-bar .ptp-item-container .ptp-cta a.ptp-button {
       width: 60%;
       margin: 0 auto;
       padding: 0.3em 0.75em;
       border-bottom: none; }
-/* line 63, sass/_pricelist-bar.scss */
+/* line 83, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-col {
   display: block;
   float: left;
   padding: 0;
   margin: 0;
   vertical-align: top;
-  white-space: normal; }
+  white-space: normal;
+  border-bottom: 1px solid #ccc; }
 
 /* line 2, sass/_breadcrumbs.scss */
 .breadcrumbs {
@@ -315,31 +336,32 @@ div.wpcf7-validation-errors {
   /* line 35, sass/_kontaktformular.scss */
   .wpcf7 textarea {
     min-width: 100%;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    resize: none; }
     @media only screen and (min-width: 768px) {
       /* line 35, sass/_kontaktformular.scss */
       .wpcf7 textarea {
         min-width: 450px; } }
-  /* line 43, sass/_kontaktformular.scss */
+  /* line 44, sass/_kontaktformular.scss */
   .wpcf7 .your-name-wrap {
     margin-bottom: 18px; }
-  /* line 47, sass/_kontaktformular.scss */
+  /* line 48, sass/_kontaktformular.scss */
   .wpcf7 .your-email-wrap {
     margin-bottom: 18px; }
-  /* line 51, sass/_kontaktformular.scss */
+  /* line 52, sass/_kontaktformular.scss */
   .wpcf7 .your-subject-wrap {
     margin-bottom: 18px; }
-  /* line 55, sass/_kontaktformular.scss */
+  /* line 56, sass/_kontaktformular.scss */
   .wpcf7 .your-message-wrap {
     margin-bottom: 18px; }
-  /* line 59, sass/_kontaktformular.scss */
+  /* line 60, sass/_kontaktformular.scss */
   .wpcf7 .your-submit-wrap input[type='submit'] {
     border-radius: 0;
     padding: 8px 12px;
     margin-right: 0;
     background: #050782;
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#050782, endColorstr=#050782); }
-    /* line 66, sass/_kontaktformular.scss */
+    /* line 67, sass/_kontaktformular.scss */
     .wpcf7 .your-submit-wrap input[type='submit']:hover {
       background: #50519A;
       filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#50519A, endColorstr=#50519A); }
@@ -403,53 +425,53 @@ div.wpcf7-validation-errors {
 /* line 40, sass/custom.scss */
 #header {
   padding: 1em 2em; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 920px) {
     /* line 40, sass/custom.scss */
     #header {
       padding: 1em 0; } }
 
-/* line 47, sass/custom.scss */
+/* line 50, sass/custom.scss */
 #intro {
   padding: 2em; }
-  @media only screen and (min-width: 768px) {
-    /* line 47, sass/custom.scss */
+  @media only screen and (min-width: 920px) {
+    /* line 50, sass/custom.scss */
     #intro {
       padding: 2em 0; } }
 
-/* line 54, sass/custom.scss */
+/* line 60, sass/custom.scss */
 #content {
   padding: 3em 2em 2em; }
-  @media only screen and (min-width: 768px) {
-    /* line 54, sass/custom.scss */
+  @media only screen and (min-width: 920px) {
+    /* line 60, sass/custom.scss */
     #content {
       padding: 3em 0 2em; } }
 
-/* line 60, sass/custom.scss */
+/* line 69, sass/custom.scss */
 #footer {
   padding: 2em 2em 3em; }
-  @media only screen and (min-width: 768px) {
-    /* line 60, sass/custom.scss */
+  @media only screen and (min-width: 920px) {
+    /* line 69, sass/custom.scss */
     #footer {
       padding: 2em 0 3em; } }
 
-/* line 67, sass/custom.scss */
+/* line 76, sass/custom.scss */
 .post-image {
   overflow: hidden;
   height: 320px; }
-  /* line 71, sass/custom.scss */
+  /* line 80, sass/custom.scss */
   .post-image .img-holder {
     font: 16px/1 Arial sans-serif;
     /* <-- reset the font property */ }
-    /* line 73, sass/custom.scss */
+    /* line 82, sass/custom.scss */
     .post-image .img-holder img {
       max-width: 100%; }
 
-/* line 84, sass/custom.scss */
+/* line 93, sass/custom.scss */
 .testimonials-wrap {
   width: 100%;
   background: transparent url("images/testimonials_bg.jpg") 0 0 no-repeat;
   background-size: cover; }
-  /* line 90, sass/custom.scss */
+  /* line 99, sass/custom.scss */
   .testimonials-wrap .controls-container.testimonials {
     width: 960px;
     height: 380px;
@@ -457,47 +479,47 @@ div.wpcf7-validation-errors {
     margin: 0 auto;
     box-sizing: border-box; }
 
-/* line 100, sass/custom.scss */
+/* line 109, sass/custom.scss */
 .featured-wrap {
   display: none; }
   @media only screen and (min-width: 768px) {
-    /* line 100, sass/custom.scss */
+    /* line 109, sass/custom.scss */
     .featured-wrap {
       display: block; } }
-  /* line 109, sass/custom.scss */
+  /* line 118, sass/custom.scss */
   .featured-wrap #featured {
     background: transparent url("images/bg-slider.png") 0 bottom no-repeat;
     padding-bottom: 25px; }
-  /* line 114, sass/custom.scss */
+  /* line 123, sass/custom.scss */
   .featured-wrap.carousel.faded {
     background-color: white;
     background-image: none;
     box-shadow: none; }
-  /* line 120, sass/custom.scss */
+  /* line 129, sass/custom.scss */
   .featured-wrap .controls-container {
     overflow: hidden; }
-    /* line 122, sass/custom.scss */
+    /* line 131, sass/custom.scss */
     .featured-wrap .controls-container.col-full {
       padding: 20px 0; }
-  /* line 126, sass/custom.scss */
+  /* line 135, sass/custom.scss */
   .featured-wrap .controls-container ul.flex-direction-nav {
     top: 44%; }
-    /* line 128, sass/custom.scss */
+    /* line 137, sass/custom.scss */
     .featured-wrap .controls-container ul.flex-direction-nav .flex-prev {
       left: 20px; }
-    /* line 131, sass/custom.scss */
+    /* line 140, sass/custom.scss */
     .featured-wrap .controls-container ul.flex-direction-nav .flex-next {
       right: 20px; }
 
-/* line 139, sass/custom.scss */
+/* line 148, sass/custom.scss */
 .search-results .page .post-body {
   float: left; }
 
-/* line 145, sass/custom.scss */
+/* line 154, sass/custom.scss */
 .woo-sc-quote p {
   background: url("images/quote_l.png") 0 0 no-repeat; }
 
-/* line 149, sass/custom.scss */
+/* line 158, sass/custom.scss */
 .quotation_wrap {
   padding: 0 55px 0 0;
   min-height: 32px;
