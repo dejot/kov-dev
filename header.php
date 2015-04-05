@@ -59,13 +59,13 @@
 		    </a>
 	    <?php } ?>
 	    
-	    <hgroup>
+	    <div class="hgroup">
 	        
 			<h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			<h3 class="nav-toggle"><a href="#navigation"><?php _e('Navigation', 'woothemes'); ?></a></h3>
 		      	
-		</hgroup>
+		</div>
 
 		<?php if ( isset( $woo_options['woo_ad_top'] ) && $woo_options['woo_ad_top'] == 'true' ) { ?>
         <div id="topad">

@@ -18,135 +18,136 @@ h4,
 .entry h2,
 .entry h3,
 .entry h4 {
-  font: 300 1.3em/1 "Signika", Verdana, Helvetica, Arial, sans-serif;
+  font-family: 'Droid Serif', Lora, Georgia, serif;
+  font-weight: 400;
   text-transform: none; }
 
-/* line 26, sass/_typography.scss */
+/* line 25, sass/_typography.scss */
 .type-page header h1, .entry h1 {
   font-size: 1.8em; }
-/* line 31, sass/_typography.scss */
+/* line 30, sass/_typography.scss */
 h1 #featured {
   font-size: 1.2em; }
-/* line 35, sass/_typography.scss */
+/* line 34, sass/_typography.scss */
 #intro h1 {
-  font-family: "Signika", Verdana, Helvetica, Arial, sans-serif;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   text-transform: none; }
-/* line 41, sass/_typography.scss */
+/* line 39, sass/_typography.scss */
 #features h1 {
   line-height: 1.1em;
   text-transform: none; }
 
-/* line 48, sass/_typography.scss */
+/* line 46, sass/_typography.scss */
 .entry h2 {
   font-size: 1.6em; }
-/* line 51, sass/_typography.scss */
+/* line 49, sass/_typography.scss */
 #features h2 {
   font-weight: normal;
   text-transform: none; }
 
-/* line 57, sass/_typography.scss */
+/* line 55, sass/_typography.scss */
 p {
   font-size: 0.875em; }
-  /* line 59, sass/_typography.scss */
+  /* line 57, sass/_typography.scss */
   .home-section.fix li p {
     font-size: 0.875em; }
 
-/* line 66, sass/_typography.scss */
+/* line 64, sass/_typography.scss */
 header.archive_header {
-  font-family: "Signika", Verdana, Helvetica, Arial, sans-serif;
+  font-family: 'Droid Serif', 'Lora', Georgia, serif;
   font-weight: 400;
   text-transform: none; }
 
-/* line 75, sass/_typography.scss */
+/* line 72, sass/_typography.scss */
 #content p, #content li, #content a, #content blockquote, #content span, #content .ptp-plan, #content .ptp-bullet-item {
   font-family: Verdana, Helvetica, Arial, sans-serif; }
 
-/* line 80, sass/_typography.scss */
+/* line 77, sass/_typography.scss */
 #main-nav, #featured {
   font-size: 0.875em; }
 
-/* line 84, sass/_typography.scss */
+/* line 81, sass/_typography.scss */
 ul {
   font-size: 0.875em; }
-  /* line 86, sass/_typography.scss */
+  /* line 83, sass/_typography.scss */
   #features ul {
     font-size: 1em; }
 
-/* line 90, sass/_typography.scss */
+/* line 87, sass/_typography.scss */
 ol {
   font-size: 0.875em; }
 
-/* line 97, sass/_typography.scss */
+/* line 94, sass/_typography.scss */
 #features #content ul {
   font-size: 0.875em; }
-/* line 100, sass/_typography.scss */
+/* line 97, sass/_typography.scss */
 #content ul li {
   line-height: 1.3em; }
-/* line 105, sass/_typography.scss */
+/* line 102, sass/_typography.scss */
 #content ol li {
   line-height: 1.3em; }
 
-/* line 110, sass/_typography.scss */
+/* line 107, sass/_typography.scss */
 .nav li.current_page_item > a {
   background: #050782; }
 
-/* line 114, sass/_typography.scss */
+/* line 111, sass/_typography.scss */
 a {
   color: #050782; }
-  /* line 116, sass/_typography.scss */
+  /* line 113, sass/_typography.scss */
   a:hover {
     color: #50519A;
     text-decoration: none; }
-  /* line 120, sass/_typography.scss */
+  /* line 117, sass/_typography.scss */
   .home-section#features li h2 a {
-    font-family: "Signika", Verdana, Helvetica, Arial, sans-serif;
+    font-family: 'Droid Serif', 'Lora', Georgia, serif;
     font-weight: 400;
     text-transform: none; }
-  /* line 127, sass/_typography.scss */
+  /* line 123, sass/_typography.scss */
   #navigation .nav li a {
     font-size: .875em;
     font-family: Verdana, Helvetica, Arial, sans-serif; }
 
-/* line 136, sass/_typography.scss */
+/* line 132, sass/_typography.scss */
 #content .post-body h1 a {
-  font-family: "Signika", Verdana, Helvetica, Arial, sans-serif; }
+  font-family: 'Droid Serif', 'Lora', Georgia, serif; }
 
-/* line 150, sass/_typography.scss */
+/* line 145, sass/_typography.scss */
 .page-template-template-kontakt-kov .widget_woo_contactus .wrap ul li {
   font-size: .875em; }
 
-/* line 159, sass/_typography.scss */
+/* line 154, sass/_typography.scss */
 #featured article header .entry {
   font-size: 1.5em;
   line-height: 1.3em;
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-weight: normal; }
 
-/* line 170, sass/_typography.scss */
+/* line 165, sass/_typography.scss */
 #pricelist-bar .ptp-pricing-table .ptp-plan {
-  font-family: "Signika", Verdana, Helvetica, Arial, sans-serif;
+  font-family: 'Droid Serif', 'Lora', Georgia, serif;
   font-weight: 400;
   font-size: 1.1em;
   line-height: 1.3em; }
-/* line 177, sass/_typography.scss */
+/* line 171, sass/_typography.scss */
 #pricelist-bar .ptp-pricing-table .ptp-price {
   font-size: .875em; }
-/* line 180, sass/_typography.scss */
+/* line 174, sass/_typography.scss */
 #pricelist-bar .ptp-pricing-table .ptp-bullet-item {
   font-size: .813em;
   line-height: 1.4em; }
-/* line 185, sass/_typography.scss */
+/* line 179, sass/_typography.scss */
 #pricelist-bar .ptp-pricing-table .ptp-cta a.ptp-button {
   font-weight: normal;
   font-family: 'Signika', Verdana, Arial, Helvetica, sans-serif; }
 
-/* line 194, sass/_typography.scss */
+/* line 188, sass/_typography.scss */
 .widget p,
 .widget cite {
   font-size: .75rem; }
 
-/* line 201, sass/_typography.scss */
+/* line 195, sass/_typography.scss */
 .wpcf7 input,
 .wpcf7 textarea {
   font-size: 100%; }
@@ -223,79 +224,58 @@ a {
   border: 1px solid #ddd; }
 /* line 11, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-three-col {
-  width: 100%; }
-  @media only screen and (min-width: 768px) {
-    /* line 11, sass/_pricelist-bar.scss */
-    #pricelist-bar .ptp-three-col {
-      width: 33.3333%;
-      border-bottom: none; } }
-/* line 20, sass/_pricelist-bar.scss */
+  width: 33.3333%; }
+/* line 14, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-four-col {
-  width: 100%; }
-  @media only screen and (min-width: 768px) and (max-width: 920px) {
-    /* line 20, sass/_pricelist-bar.scss */
-    #pricelist-bar .ptp-four-col {
-      width: 50%;
-      border-bottom: 1px solid #ccc; } }
-  @media only screen and (min-width: 921px) {
-    /* line 20, sass/_pricelist-bar.scss */
-    #pricelist-bar .ptp-four-col {
-      width: 25%;
-      border-bottom: none; } }
-  /* line 33, sass/_pricelist-bar.scss */
+  width: 25%; }
+  /* line 17, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-four-col .ptp-plan {
     min-height: 3.13em; }
-  /* line 36, sass/_pricelist-bar.scss */
+  /* line 20, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-four-col .ptp-bullet-item {
     min-height: 5.8em; }
-/* line 40, sass/_pricelist-bar.scss */
+/* line 24, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-five-col {
-  width: 100%; }
-  @media only screen and (min-width: 768px) {
-    /* line 40, sass/_pricelist-bar.scss */
-    #pricelist-bar .ptp-five-col {
-      width: 20%;
-      border-bottom: none; } }
-/* line 47, sass/_pricelist-bar.scss */
+  width: 20%; }
+/* line 27, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-not-most-popular {
   display: none; }
-/* line 51, sass/_pricelist-bar.scss */
+/* line 31, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-item-container {
   border: none; }
-  /* line 53, sass/_pricelist-bar.scss */
+  /* line 33, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-item-container .ptp-plan {
     background-color: #eee;
     padding: 0.5em 0.25em 0.25em;
     text-align: center; }
-  /* line 58, sass/_pricelist-bar.scss */
+  /* line 38, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-item-container .ptp-price {
     background-color: #f5f5f5;
     padding: 0.25em 1.25em;
     text-align: center; }
-  /* line 63, sass/_pricelist-bar.scss */
+  /* line 43, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-item-container .ptp-bullet-item {
     padding: 0.9375em 1.25em;
     text-align: center; }
-  /* line 67, sass/_pricelist-bar.scss */
+  /* line 47, sass/_pricelist-bar.scss */
   #pricelist-bar .ptp-item-container .ptp-cta {
     padding: 0.75em;
     text-align: center;
     background-color: white; }
-    /* line 72, sass/_pricelist-bar.scss */
+    /* line 52, sass/_pricelist-bar.scss */
     #pricelist-bar .ptp-item-container .ptp-cta a.ptp-button {
       width: 60%;
       margin: 0 auto;
       padding: 0.3em 0.75em;
       border-bottom: none; }
-/* line 83, sass/_pricelist-bar.scss */
+/* line 63, sass/_pricelist-bar.scss */
 #pricelist-bar .ptp-col {
   display: block;
   float: left;
   padding: 0;
   margin: 0;
   vertical-align: top;
-  white-space: normal;
-  border-bottom: 1px solid #ccc; }
+  white-space: normal; }
 
 /* line 2, sass/_breadcrumbs.scss */
 .breadcrumbs {
@@ -308,60 +288,50 @@ a {
       color: #50519A;
       text-decoration: none; }
 
-/* line 1, sass/_kontaktformular.scss */
-body.page-template-template-kontakt-kov-php {
-  min-width: 480px; }
-
-/* line 6, sass/_kontaktformular.scss */
+/* line 2, sass/_kontaktformular.scss */
 .kontakt section.entry {
   background-color: #f5f5f5;
   padding: 20px; }
 
-/* line 12, sass/_kontaktformular.scss */
+/* line 8, sass/_kontaktformular.scss */
 div.wpcf7-validation-errors {
   border: 2px solid #f00; }
 
-/* line 20, sass/_kontaktformular.scss */
+/* line 12, sass/_kontaktformular.scss */
 .wpcf7 {
   margin: 30px 0 0; }
-  /* line 23, sass/_kontaktformular.scss */
+  /* line 14, sass/_kontaktformular.scss */
   .wpcf7 label {
     display: inline-block;
     margin-bottom: 5px; }
-  /* line 29, sass/_kontaktformular.scss */
+  /* line 20, sass/_kontaktformular.scss */
   .wpcf7 input[type='text'],
   .wpcf7 input[type='email'] {
     padding: 10px;
     min-width: 350px; }
-  /* line 35, sass/_kontaktformular.scss */
+  /* line 26, sass/_kontaktformular.scss */
   .wpcf7 textarea {
-    min-width: 100%;
-    box-sizing: border-box;
-    resize: none; }
-    @media only screen and (min-width: 768px) {
-      /* line 35, sass/_kontaktformular.scss */
-      .wpcf7 textarea {
-        min-width: 450px; } }
-  /* line 44, sass/_kontaktformular.scss */
+    min-width: 450px; }
+  /* line 29, sass/_kontaktformular.scss */
   .wpcf7 .your-name-wrap {
     margin-bottom: 18px; }
-  /* line 48, sass/_kontaktformular.scss */
+  /* line 33, sass/_kontaktformular.scss */
   .wpcf7 .your-email-wrap {
     margin-bottom: 18px; }
-  /* line 52, sass/_kontaktformular.scss */
+  /* line 37, sass/_kontaktformular.scss */
   .wpcf7 .your-subject-wrap {
     margin-bottom: 18px; }
-  /* line 56, sass/_kontaktformular.scss */
+  /* line 41, sass/_kontaktformular.scss */
   .wpcf7 .your-message-wrap {
     margin-bottom: 18px; }
-  /* line 60, sass/_kontaktformular.scss */
+  /* line 45, sass/_kontaktformular.scss */
   .wpcf7 .your-submit-wrap input[type='submit'] {
     border-radius: 0;
     padding: 8px 12px;
     margin-right: 0;
     background: #050782;
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#050782, endColorstr=#050782); }
-    /* line 67, sass/_kontaktformular.scss */
+    /* line 52, sass/_kontaktformular.scss */
     .wpcf7 .your-submit-wrap input[type='submit']:hover {
       background: #50519A;
       filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#50519A, endColorstr=#50519A); }
@@ -403,75 +373,47 @@ div.wpcf7-validation-errors {
   margin-bottom: 45px !important; }
 
 @media only screen and (min-width: 768px) {
-  /* line 17, sass/custom.scss */
+  /* line 20, sass/custom.scss */
   #navigation {
     position: absolute;
     bottom: 0;
     right: 0; }
 
-  /* line 23, sass/custom.scss */
+  /* line 26, sass/custom.scss */
   #sidebar {
     clear: none; } }
-/* line 28, sass/custom.scss */
+/* line 31, sass/custom.scss */
 #sidebar {
   clear: none;
   margin-top: 0; }
 
 @media only screen and (min-width: 768px) {
-  /* line 34, sass/custom.scss */
+  /* line 37, sass/custom.scss */
   .home-section ul {
     float: left;
     width: 100%; } }
-/* line 40, sass/custom.scss */
+/* line 43, sass/custom.scss */
 #header {
-  padding: 1em 2em; }
-  @media only screen and (min-width: 920px) {
-    /* line 40, sass/custom.scss */
-    #header {
-      padding: 1em 0; } }
+  padding: 1em 0; }
 
-/* line 50, sass/custom.scss */
-#intro {
-  padding: 2em; }
-  @media only screen and (min-width: 920px) {
-    /* line 50, sass/custom.scss */
-    #intro {
-      padding: 2em 0; } }
-
-/* line 60, sass/custom.scss */
-#content {
-  padding: 3em 2em 2em; }
-  @media only screen and (min-width: 920px) {
-    /* line 60, sass/custom.scss */
-    #content {
-      padding: 3em 0 2em; } }
-
-/* line 69, sass/custom.scss */
-#footer {
-  padding: 2em 2em 3em; }
-  @media only screen and (min-width: 920px) {
-    /* line 69, sass/custom.scss */
-    #footer {
-      padding: 2em 0 3em; } }
-
-/* line 76, sass/custom.scss */
+/* line 47, sass/custom.scss */
 .post-image {
   overflow: hidden;
   height: 320px; }
-  /* line 80, sass/custom.scss */
+  /* line 51, sass/custom.scss */
   .post-image .img-holder {
     font: 16px/1 Arial sans-serif;
     /* <-- reset the font property */ }
-    /* line 82, sass/custom.scss */
+    /* line 53, sass/custom.scss */
     .post-image .img-holder img {
       max-width: 100%; }
 
-/* line 93, sass/custom.scss */
+/* line 64, sass/custom.scss */
 .testimonials-wrap {
   width: 100%;
   background: transparent url("images/testimonials_bg.jpg") 0 0 no-repeat;
   background-size: cover; }
-  /* line 99, sass/custom.scss */
+  /* line 70, sass/custom.scss */
   .testimonials-wrap .controls-container.testimonials {
     width: 960px;
     height: 380px;
@@ -479,49 +421,58 @@ div.wpcf7-validation-errors {
     margin: 0 auto;
     box-sizing: border-box; }
 
-/* line 109, sass/custom.scss */
-.featured-wrap {
-  display: none; }
-  @media only screen and (min-width: 768px) {
-    /* line 109, sass/custom.scss */
-    .featured-wrap {
-      display: block; } }
-  /* line 118, sass/custom.scss */
-  .featured-wrap #featured {
-    background: transparent url("images/bg-slider.png") 0 bottom no-repeat;
-    padding-bottom: 25px; }
-  /* line 123, sass/custom.scss */
-  .featured-wrap.carousel.faded {
-    background-color: white;
-    background-image: none;
-    box-shadow: none; }
-  /* line 129, sass/custom.scss */
-  .featured-wrap .controls-container {
-    overflow: hidden; }
-    /* line 131, sass/custom.scss */
-    .featured-wrap .controls-container.col-full {
-      padding: 20px 0; }
-  /* line 135, sass/custom.scss */
-  .featured-wrap .controls-container ul.flex-direction-nav {
-    top: 44%; }
-    /* line 137, sass/custom.scss */
-    .featured-wrap .controls-container ul.flex-direction-nav .flex-prev {
-      left: 20px; }
-    /* line 140, sass/custom.scss */
-    .featured-wrap .controls-container ul.flex-direction-nav .flex-next {
-      right: 20px; }
+/* line 81, sass/custom.scss */
+.featured-wrap #featured {
+  background: transparent url("images/bg-slider.png") 0 bottom no-repeat;
+  padding-bottom: 25px; }
+/* line 86, sass/custom.scss */
+.featured-wrap.carousel.faded {
+  background-color: white;
+  background-image: none;
+  box-shadow: none; }
+/* line 92, sass/custom.scss */
+.featured-wrap .controls-container {
+  overflow: hidden; }
+  /* line 94, sass/custom.scss */
+  .featured-wrap .controls-container.col-full {
+    padding: 20px 0; }
+/* line 98, sass/custom.scss */
+.featured-wrap .controls-container ul.flex-direction-nav {
+  top: 44%; }
+  /* line 100, sass/custom.scss */
+  .featured-wrap .controls-container ul.flex-direction-nav .flex-prev {
+    left: 20px; }
+  /* line 103, sass/custom.scss */
+  .featured-wrap .controls-container ul.flex-direction-nav .flex-next {
+    right: 20px; }
 
-/* line 148, sass/custom.scss */
+/* line 111, sass/custom.scss */
 .search-results .page .post-body {
   float: left; }
 
-/* line 154, sass/custom.scss */
+/* line 117, sass/custom.scss */
 .woo-sc-quote p {
   background: url("images/quote_l.png") 0 0 no-repeat; }
 
-/* line 158, sass/custom.scss */
+/* line 121, sass/custom.scss */
 .quotation_wrap {
   padding: 0 55px 0 0;
   min-height: 32px;
   display: inline-block;
   background: url("images/quote_r.png") right 0 no-repeat; }
+
+/* line 128, sass/custom.scss */
+#header .hgroup {
+  margin: 0 0 30px; }
+
+/* line 131, sass/custom.scss */
+.hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 138, sass/custom.scss */
+.hgroup {
+  display: block; }

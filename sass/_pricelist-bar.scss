@@ -9,26 +9,10 @@
 
 	
 	.ptp-three-col {
-	    width: 100%;
-
-		@media only screen and (min-width: 768px) {
-			width: 33.3333%;
-			border-bottom: none;  
-		}
-
+	    width: 33.3333%;
 	}
 	.ptp-four-col {
-	    width: 100%;
-
-		@media only screen and (min-width: 768px) and (max-width: 920px) {
-			width: 50%;
-			border-bottom: 1px solid #ccc;
-		 }
-
-		@media only screen and (min-width: 921px) {
-	    	width: 25%;
-	    	border-bottom: none; 
-		}		 
+	    width: 25%;
 
 	    .ptp-plan {
 	    	min-height: 3.13em;
@@ -38,11 +22,7 @@
 	    }
 	}
 	.ptp-five-col {
-	    width: 100%;
-		@media only screen and (min-width: 768px) {
-			width: 20%;
-			border-bottom: none;  
-		}		    
+	    width: 20%;
 	}
 	.ptp-not-most-popular {
 		display: none;
@@ -87,7 +67,6 @@
 		margin: 0;
 	    vertical-align: top;
 	    white-space: normal;
-		border-bottom: 1px solid #ccc;
 	}	
 }
 
